@@ -1,0 +1,14 @@
+package com.headfirstdp.decorator;
+
+public class HouseBlendCoffe extends Breverages{
+	
+	public HouseBlendCoffe() {
+		super.setDescription("Milk Coffe");
+	}
+
+	@Override
+	public double cost() {
+		return 10;
+	}
+
+}

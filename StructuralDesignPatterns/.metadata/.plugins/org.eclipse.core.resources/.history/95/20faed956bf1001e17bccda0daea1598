@@ -1,0 +1,5 @@
+package com.headfirstdp.decorator;
+
+public class CoffeType2 {
+
+}

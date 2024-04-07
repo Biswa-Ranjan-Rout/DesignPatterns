@@ -1,0 +1,11 @@
+package com.headfirstdp.decorator;
+
+public class Test {
+	public static void main(String[] args) {
+		Beverage beverage = new EspressoCoffe();
+		System.out.println(beverage.cost());
+		
+		System.out.println(new Milk(new HouseBlendCoffe()).cost());
+		
+	}
+}

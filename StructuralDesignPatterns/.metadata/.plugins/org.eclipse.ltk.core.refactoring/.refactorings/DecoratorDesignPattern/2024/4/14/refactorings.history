@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.headfirstdp.observer&apos; to &apos;com.headfirstdp.decorator&apos;&#x0D;&#x0A;- Original project: &apos;DecoratorDesignPattern&apos;&#x0D;&#x0A;- Original element: &apos;DecoratorDesignPattern/src/com.headfirstdp.observer&apos;&#x0D;&#x0A;- Renamed element: &apos;DecoratorDesignPattern/src/com.headfirstdp.decorator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.headfirstdp.observer&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.headfirstdp.observer" name="com.headfirstdp.decorator" qualified="false" references="true" stamp="1712114754872" textual="false" version="1.0"/>
+</session>

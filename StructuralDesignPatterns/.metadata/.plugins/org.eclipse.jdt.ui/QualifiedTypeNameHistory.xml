@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.Breverages"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.FlavouredCoffeDecorator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.Beverage"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.Milk"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.HouseBlendCoffe"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.ExtraBeansCoffe"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.EspressoCoffe"/>
+    <fullyQualifiedTypeName name="com.headfirstdp.decorator.ExtraSugarCoffe"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+package headfirst.designpatterns.observer.implementations;
+
+import headfirst.designpatterns.observer.interfaces.Subject;
+
+public class WheatherData implements Subject{
+
+}

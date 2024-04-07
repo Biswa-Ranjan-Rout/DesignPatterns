@@ -1,0 +1,11 @@
+package com.cdp;
+
+public class Test {
+	public static void main(String[] args) {
+		TelevisionReceiver tv = new TelevisionReceiver();
+		RemoteControl_Invoker invoker = new RemoteControl_Invoker(new PowerOnCmd(tv));
+		//RemoteControl_Invoker invoker = new RemoteControl_Invoker(new PowerOffCmd(tv));
+		invoker.pressButton();
+		invoker.undoButton();
+	}
+}

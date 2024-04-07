@@ -1,0 +1,15 @@
+package com.headfirstdp.decorator;
+
+/* Concrete Component */
+public class EspressoCoffe extends Breverages {
+
+	public EspressoCoffe() {
+		super.setDescription("Espresso Coffe");
+	}
+
+	@Override
+	public double cost() {
+		return 20;
+	}
+
+}

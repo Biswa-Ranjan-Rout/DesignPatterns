@@ -1,0 +1,6 @@
+package com.headfirstdp.decorator;
+
+public abstract class Breverages {
+	private String description;
+	public abstract double cost();ś
+}

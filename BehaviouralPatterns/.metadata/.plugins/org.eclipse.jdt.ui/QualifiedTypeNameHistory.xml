@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="StrategyPattern.serviceImpl.Quack"/>
+    <fullyQualifiedTypeName name="StrategyPattern.serviceImpl.Squeak"/>
+    <fullyQualifiedTypeName name="StrategyPattern.serviceImpl.FlyNoFly"/>
+    <fullyQualifiedTypeName name="StrategyPattern.serviceImpl.MuteQuack"/>
+    <fullyQualifiedTypeName name="StrategyPattern.types.MallardDuck"/>
+    <fullyQualifiedTypeName name="StrategyPattern.types.RubberDuck"/>
+    <fullyQualifiedTypeName name="StrategyPattern.serviceImpl.FlyWithWings"/>
+    <fullyQualifiedTypeName name="StrategyPattern.IService.FlyingBehaviour"/>
+</qualifiedTypeNameHistroy>

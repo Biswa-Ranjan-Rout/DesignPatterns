@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\CP\DesignPatterns\BehaviouralPatterns\.metadata\.plugins\org.eclipse.jdt.core
+3756685354.index
+1865797976.index
+1725632556.index
+681540485.index

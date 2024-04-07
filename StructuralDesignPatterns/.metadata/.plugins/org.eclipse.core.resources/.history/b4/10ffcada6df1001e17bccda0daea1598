@@ -1,0 +1,18 @@
+package com.headfirstdp.decorator;
+
+public class ExtraSugarCoffe extends FlavouredCoffeDecorator {
+	Beverage beverage;
+
+	public ExtraSugarCoffe(Beverage beverage) {
+		this.beverage = beverage;
+	}
+
+	@Override
+	public String getDescription() {
+		return "Extra Sugar Coffe";
+	}
+
+	public double cost() {
+		return beverage.cost() + 3;
+	}
+}

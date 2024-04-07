@@ -1,0 +1,13 @@
+package com.cdp;
+
+public class RemoteControl_Invoker {
+	private ICommand cmd;
+	
+	public RemoteControl_Invoker(ICommand cmd) {
+		this.cmd = cmd;
+	}
+	
+	public void pressButton() {
+		cmd.execute();
+	}
+}
