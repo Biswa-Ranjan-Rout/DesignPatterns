@@ -1,4 +1,4 @@
-package com.headfirstdp.decorator;
+package com.headfirstdp.decorator.concreteDecoratorType;
 
 import com.headfirstdp.decorator.interfaces.Beverage;
 import com.headfirstdp.decorator.interfaces.FlavouredCoffeDecorator;

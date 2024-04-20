@@ -1,10 +1,10 @@
 package com.headfirstdp.decorator.client;
 
-import com.headfirstdp.decorator.ExtraBeansCoffe;
-import com.headfirstdp.decorator.ExtraSugarCoffe;
-import com.headfirstdp.decorator.Milk;
-import com.headfirstdp.decorator.concreteComponent.EspressoCoffe;
-import com.headfirstdp.decorator.concreteComponent.HouseBlendCoffe;
+import com.headfirstdp.decorator.concreteBaseType.EspressoCoffe;
+import com.headfirstdp.decorator.concreteBaseType.HouseBlendCoffe;
+import com.headfirstdp.decorator.concreteDecoratorType.ExtraBeansCoffe;
+import com.headfirstdp.decorator.concreteDecoratorType.ExtraSugarCoffe;
+import com.headfirstdp.decorator.concreteDecoratorType.Milk;
 import com.headfirstdp.decorator.interfaces.Beverage;
 
 public class Test {

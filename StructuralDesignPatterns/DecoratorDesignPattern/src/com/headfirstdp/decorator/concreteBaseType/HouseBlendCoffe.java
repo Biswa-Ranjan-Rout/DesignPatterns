@@ -1,4 +1,4 @@
-package com.headfirstdp.decorator.concreteComponent;
+package com.headfirstdp.decorator.concreteBaseType;
 
 import com.headfirstdp.decorator.interfaces.Beverage;
 
