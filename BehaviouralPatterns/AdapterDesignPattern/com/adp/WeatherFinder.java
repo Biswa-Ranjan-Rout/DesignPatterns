@@ -1,5 +1,6 @@
 package com.adp;
 
+// Step -2
 public class WeatherFinder implements IWeatherFinder {
 
 	@Override

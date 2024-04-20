@@ -3,6 +3,7 @@ package com.adp;
 import java.util.HashMap;
 import java.util.Map;
 
+// Step-3
 public class WeatherAdapter {
 
 	public int findTemprature(int pincode) {
