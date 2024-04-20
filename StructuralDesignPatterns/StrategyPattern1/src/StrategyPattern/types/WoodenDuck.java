@@ -1,20 +1,23 @@
 package StrategyPattern.types;
 
-import StrategyPattern.serviceImpl.FlyNoFly;
-import StrategyPattern.serviceImpl.MuteQuack;
+import StrategyPattern.IService.Duck;
+import StrategyPattern.serviceImpl.flyAlgoFamily.FlyNoFly;
+import StrategyPattern.serviceImpl.quackAlgoFamily.MuteQuack;
 
 public class WoodenDuck extends Duck {
 
 	// constructor is not required when we use setter in Duck class to set the
 	// runtime object
 	public WoodenDuck() {
-		flyBehaviour = new FlyNoFly();
-		quackBehaviour = new MuteQuack();
+		// flyBehaviour = new FlyNoFly();	
+		// quackBehaviour = new MuteQuack();
 	}
 
 	@Override
-	void display() {
+	public void display() {
 		System.out.println("I'm a Wooden Duck");
 	}
+
+	
 
 }

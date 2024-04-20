@@ -1,5 +1,8 @@
 package com.headfirstdp.decorator;
 
+import com.headfirstdp.decorator.interfaces.Beverage;
+import com.headfirstdp.decorator.interfaces.FlavouredCoffeDecorator;
+
 /* Milk is a decorator, so it's extending FlavouredDecorator */ 
 public class Milk extends FlavouredCoffeDecorator{
 

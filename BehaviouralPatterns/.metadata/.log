@@ -1090,3 +1090,10 @@ java.lang.Exception: File not found: D:\CP\DesignPatterns\BehaviouralPatterns\Ob
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2024-04-20 19:39:52.862
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-04-20 19:39:52.862
+!MESSAGE The project description file (.project) for 'AdapterDesignPattern' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-04-20 19:39:52.862
+!MESSAGE The project description file (.project) for 'StrategyPattern1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

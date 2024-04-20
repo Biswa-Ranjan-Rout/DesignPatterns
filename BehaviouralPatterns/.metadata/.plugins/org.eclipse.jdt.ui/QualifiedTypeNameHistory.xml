@@ -17,4 +17,10 @@
     <fullyQualifiedTypeName name="com.cmd.textEditor.InserTextCommand"/>
     <fullyQualifiedTypeName name="com.cmd.textEditor.TextEditor"/>
     <fullyQualifiedTypeName name="com.adp.WeatherAdapter"/>
+    <fullyQualifiedTypeName name="headfirst.designpatterns.observer.interfaces.DisplayElement"/>
+    <fullyQualifiedTypeName name="headfirst.designpatterns.observer.interfaces.Subject"/>
+    <fullyQualifiedTypeName name="headfirst.designpatterns.observer.subject.impl.WeatherData"/>
+    <fullyQualifiedTypeName name="headfirst.designpatterns.observer.interfaces.Observer"/>
+    <fullyQualifiedTypeName name="headfirst.designpatterns.observer.impl.CurrentConditionsDisplay"/>
+    <fullyQualifiedTypeName name="headfirst.designpatterns.observer.impl.ForeCastDisplay"/>
 </qualifiedTypeNameHistroy>

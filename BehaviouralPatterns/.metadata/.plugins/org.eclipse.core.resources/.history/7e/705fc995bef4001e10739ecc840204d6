@@ -1,7 +1,0 @@
-package com.cdp;
-
-public class TelevisionReceiver {
-	public void powerOn() {
-		System.out.println("Power On");
-	}
-}
