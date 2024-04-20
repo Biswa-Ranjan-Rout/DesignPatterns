@@ -7,6 +7,8 @@ import headfirst.designpatterns.observer.interfaces.Subject;
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;
 	private float pressure;
+	
+	// This is required to register and unregister with the Subject
 	private Subject weatherData;
 
 	public CurrentConditionsDisplay(Subject wd) {

@@ -8,6 +8,7 @@ public class ForeCastDisplay implements Observer, DisplayElement {
 	private float temperature;
 	private float pressure;
 
+	// This is required to register and unregister with the Subject
 	private Subject weatherData;
 
 	public ForeCastDisplay(Subject wd) {
