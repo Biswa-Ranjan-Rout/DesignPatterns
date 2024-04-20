@@ -1,4 +1,4 @@
-package headfirst.designpatterns.observer.implementations;
+package headfirst.designpatterns.observer.subject.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,14 +6,14 @@ import java.util.List;
 import headfirst.designpatterns.observer.interfaces.Observer;
 import headfirst.designpatterns.observer.interfaces.Subject;
 
-public class WheatherData implements Subject {
+public class WeatherData implements Subject {
 
 	private float temp;
 	private float pressure;
 
 	private List<Observer> observers;
 
-	public WheatherData() {
+	public WeatherData() {
 		observers = new ArrayList<>();
 	}
 
@@ -30,11 +30,11 @@ public class WheatherData implements Subject {
 	@Override
 	public void notifyObservers() {
 		for (Observer o : observers) {
-			o.update();
+			o.update(temp, pressure);
 		}
 	}
 
-	public void setState(float temp, float pressure) {
+	public void setMeasurements(float temp, float pressure) {
 		this.temp = temp;
 		this.pressure = pressure;
 		notifyObservers();
