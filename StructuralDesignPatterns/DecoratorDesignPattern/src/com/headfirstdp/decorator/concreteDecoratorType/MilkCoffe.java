@@ -4,11 +4,11 @@ import com.headfirstdp.decorator.interfaces.Beverage;
 import com.headfirstdp.decorator.interfaces.FlavouredCoffeDecorator;
 
 /* Milk is a decorator, so it's extending FlavouredDecorator */ 
-public class Milk extends FlavouredCoffeDecorator{
+public class MilkCoffe extends FlavouredCoffeDecorator{
 
 	Beverage beverage;
 	
-	public Milk(Beverage beverage) {
+	public MilkCoffe(Beverage beverage) {
 		this.beverage = beverage;
 	}
 	
