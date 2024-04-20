@@ -8,4 +8,13 @@
     <fullyQualifiedTypeName name="StrategyPattern.types.RubberDuck"/>
     <fullyQualifiedTypeName name="StrategyPattern.serviceImpl.FlyWithWings"/>
     <fullyQualifiedTypeName name="StrategyPattern.IService.FlyingBehaviour"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.cdp.TelevisionReceiver"/>
+    <fullyQualifiedTypeName name="com.cdp.RemoteControl_Invoker"/>
+    <fullyQualifiedTypeName name="com.cdp.PowerOnCmd"/>
+    <fullyQualifiedTypeName name="com.cdp.PowerOffCmd"/>
+    <fullyQualifiedTypeName name="com.cdp.ICommand"/>
+    <fullyQualifiedTypeName name="com.cmd.textEditor.InserTextCommand"/>
+    <fullyQualifiedTypeName name="com.cmd.textEditor.TextEditor"/>
+    <fullyQualifiedTypeName name="com.adp.WeatherAdapter"/>
 </qualifiedTypeNameHistroy>
